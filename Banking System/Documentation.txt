@@ -1,0 +1,110 @@
+Online Banking System - Project Report
+
+Project Title: Secure Online Banking System with GUI
+
+Project By: Aron Macwan
+Course: Bachelor of Computer Engineering
+University: Uka Tarsadia University
+Date: February 2026
+
+1. Introduction
+
+The Online Banking System project is a Java-based desktop application designed to simulate real-world banking operations in a secure and user-friendly environment. The system allows users to:
+
+Create accounts with unique account numbers.
+
+Deposit and withdraw money.
+
+Transfer funds between accounts.
+
+View transaction history.
+
+Check account balance.
+
+Delete accounts securely.
+
+The application stores account data persistently, ensuring all transactions and user information are saved between sessions.
+
+2. Objectives
+
+Provide a secure banking environment with login/password authentication.
+
+Implement persistent storage to save accounts and transactions.
+
+Develop a Graphical User Interface (GUI) using Java Swing.
+
+Allow users to perform essential banking operations safely and efficiently.
+
+Demonstrate object-oriented programming concepts, file handling, and GUI design.
+
+3. System Requirements
+
+Hardware:
+
+Minimum 4 GB RAM
+
+2 GHz processor
+
+100 MB free disk space
+
+Software:
+
+Java SE Development Kit (JDK 8 or above)
+
+IDE: Eclipse, IntelliJ IDEA, or NetBeans
+
+Operating System: Windows / Linux / macOS
+
+4. Features
+
+Account Creation:
+
+Users can create accounts with account number, holder name, password, and initial balance.
+
+Login Authentication:
+
+Secure login using account number and password.
+
+Deposit & Withdraw:
+
+Users can deposit or withdraw funds after login.
+
+Transaction history is updated automatically.
+
+Fund Transfer:
+
+Transfer money securely between two accounts.
+
+Sender and receiver balances are updated immediately.
+
+Check Balance:
+
+Users can view their current account balance after login.
+
+Transaction History:
+
+Shows all deposits, withdrawals, and transfers.
+
+Displayed in a neat, scrollable text area.
+
+Account Deletion:
+
+Users can delete their account securely using account number and password.
+
+Persistent Storage:
+
+Account data is stored in accounts.dat using Java serialization.
+
+7. Technologies Used
+
+Java SE (Swing, AWT)
+
+File Handling (Serialization for persistent storage)
+
+Object-Oriented Programming
+
+GUI Design (JTabbedPane, GridBagLayout, GridLayout)
+
+9. Conclusion
+
+The project successfully demonstrates a secure, functional online banking system with a modern GUI. It highlights the use of Java OOP concepts, Swing UI design, file handling, and persistent storage. The system is user-friendly, secure, and suitable for demonstration in academic settings.
